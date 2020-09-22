@@ -178,7 +178,7 @@ class LinkedList {
   }
 }
 
-class Node {
+class LinkedListNodeI {
   constructor(value) {
     this.value = value
     this.next = null
@@ -193,7 +193,7 @@ class LinkedListI {
   }
 
   append(value) {
-    const newNode = new Node(value)
+    const newNode = new LinkedListNodeI(value)
     if (!this.head) {
       this.head = newNode
       this.tail = newNode
@@ -217,7 +217,7 @@ class LinkedListI {
   insert(value, index) {
     if (index >= this.length) this.append(value)
 
-    const newNode = new Node(value)
+    const newNode = new LinkedListNodeI(value)
 
     const { prevNode, nextNode, } = this.getSiblings(index)
     prevNode.next = newNode
