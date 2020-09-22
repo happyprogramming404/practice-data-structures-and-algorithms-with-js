@@ -1,3 +1,5 @@
+// solution one
+
 class LinkedListNode {
   constructor(value, next = null) {
     this.value = value
@@ -177,6 +179,9 @@ class LinkedList {
     return this
   }
 }
+
+
+// solution two
 
 class LinkedListNodeI {
   constructor(value) {
