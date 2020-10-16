@@ -11,7 +11,7 @@ class LinkedListNode {
   }
 }
 
-class LinkedList {
+export class LinkedList {
   constructor() {
     this.head = null
     this.tail = null
@@ -190,7 +190,7 @@ class LinkedListNodeI {
   }
 }
 
-class LinkedListI {
+export class LinkedListI {
   constructor() {
     this.head = null
     this.tail = this.head
