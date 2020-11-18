@@ -10,3 +10,20 @@
 - [Wikipedia](https://en.wikipedia.org/wiki/Hash_table)
 - [YouTube](https://www.youtube.com/watch?v=shs0KM3wKv8&index=4&list=PLLXdhg_r2hKA7DPDsunoDZ-Z769jWn4R8)
 - [dsa.js-data-structures-algorithms-javascript](https://github.com/amejiarosario/dsa.js-data-structures-algorithms-javascript/blob/master/book/content/part02/hash-map.asc)
+
+## LeetCode
+<details>
+<summary>1207</summary>
+
+#### [1207]()
+##### solution 1
+```javascript
+/**
+ * @param {number[]} arr
+ * @return {boolean}
+ */
+const uniqueOccurrences = arr => {
+  
+}
+```
+</details>
